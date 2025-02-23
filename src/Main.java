@@ -2,6 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
         Pessoa pessoa = new Pessoa();
         pessoa.setNome("Sara");
         pessoa.setIdade(18);
@@ -13,5 +14,6 @@ public class Main {
         System.out.println("Peso: " + pessoa.getPeso() + " kg");
         System.out.println("IMC: " + pessoa.calcularIMC() + " kg/m2");
         System.out.println("Classificação: " + pessoa.classificarIMC());
+
     }
 }
